@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TO DO LIST</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>TO DO LIST</h1>
+  <br>
+  <form>
+    <div class="input-group mb-3" style="width: 50%;left: 25%">
+        <input type="date" id="date">
+        <input type="text" class="form-control" id="input">
+        <button class="btn btn-primary" type="button" id="button">입력</button>
+    </div>
+    <h3>오늘의 TASK</h3>
+    <ul class="list-group"  id="list">
+    <br><br>
+    </ul>
+    <h3>완료한 TASK</h3>
+    <ul class="list-group" style="left: 25%" id="donelist">
+        
+    </ul>
+    <input type="reset" class="btn btn-primary">
+  </form>
+  <script src="./script.js"></script>
+</body>
